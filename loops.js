@@ -23,7 +23,7 @@ function incrementVariable() {
   i = i + 1;
 }
 do {
-  incrementVariable();
   array = array.slice (1);
+  incrementVariable();
 } while (array.length > 0 && i < 5);
 }
